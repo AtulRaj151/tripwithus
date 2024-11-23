@@ -8,7 +8,7 @@ const port = 3010;
 
 app.use(cors());
 
-app.get("//hotels",(req,res)=> {
+app.get("/hotels",(req,res)=> {
    res.status(200).json({ hotels: hotels});
 });
 
